@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.png) no-repeat top center;
+    line-height: 1.15;
+}
+header{
+    height: .9375rem;
+    background: url(../images/table.png) no-repeat;
+    background-size: 100% 100%;
+}
+h1{
+    color:#6BB9FB;
+    font-size: .4375rem;
+    line-height: .9375rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.mainbox{
+    display: flex;
+    min-width: 1024px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: lightblue;
+    padding: 0.125rem 0.125rem 0;
+}
+.column{
+    flex: 3;
+}
+.column:nth-child(1){
+    flex: 5;
+}
+.column:nth-child(2){
+    flex: 3;
+}
+.column:nth-child(3){
+    flex: 3;
+}
